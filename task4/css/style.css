@@ -1,0 +1,218 @@
+body {
+ font-family: Tahoma;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3fc4d1+0,0c739f+100 */
+ background: #3fc4d1; /* Old browsers */
+ background: -moz-linear-gradient(top,  #3fc4d1 0%, #0c739f 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  #3fc4d1 0%,#0c739f 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  #3fc4d1 0%,#0c739f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fc4d1', endColorstr='#0c739f',GradientType=0 ); /* IE6-9 */
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+.line {
+ width: 100%;
+ height: 30px;
+ background-color: #128aa7;
+ border-bottom: 1px #5ef0ff solid;
+}
+
+.header_line {
+ width: 100%;
+ height: 145px;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1cd0e2+0,ffffff+84 */
+ background: #1cd0e2; /* Old browsers */
+ background: -moz-linear-gradient(top,  #1cd0e2 0%, #ffffff 84%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  #1cd0e2 0%,#ffffff 84%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  #1cd0e2 0%,#ffffff 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1cd0e2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.block_page {
+ width: 1000px;
+ position: absolute;
+ left: 50%;
+ margin-left: -500px;
+ top: 0px;
+}
+
+.top_block {
+ -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+ -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+}
+
+header {
+ height: 165px;
+ background-color: white;
+ padding: 10px 50px 0 50px;
+ border-bottom: 1px #128aa7 solid;
+}
+
+header img {
+ display: inline-block;
+ float: left;
+}
+
+.box_cont {
+ width: 615px;
+ float: left;
+ position: relative;
+}
+
+.contacts, .flags {
+ float: right;
+ margin-bottom: 15px;
+}
+
+.contacts p {
+ margin-bottom: 4px;
+ font-size: 12pt;
+ color: #7bb3c4;
+}
+
+.flags div {
+ float: left;
+ margin-right: 20px;
+}
+
+.flags a {
+ display: block;
+ padding-top: 45px;
+ font-size: 10pt;
+ color: #5fa5bb;
+ text-decoration: underline;
+}
+
+.flags div {
+ width:42px;
+ height: 42px;
+}
+
+.india {
+ background: url("../img/india.png");
+}
+
+.nepal {
+ background: url("../img/nepal.png");
+}
+
+.tibet {
+ background: url("../img/tibet.png");
+}
+
+.butan {
+ background: url("../img/butan.png");
+}
+
+.shri_lanka {
+ width: 71px!important;
+ background: url("../img/shri_lanka.png") no-repeat;
+ background-position: center;
+}
+
+.maldivi {
+ width: 60px!important;
+ background: url("../img/maldivi.png") no-repeat;
+ background-position: center;
+}
+
+.menu {
+ display: inline-block;
+ width: 100%;
+ height: 28px;
+ border-bottom: 1px black solid;
+ background-color: #333333;
+}
+
+.menu ul {
+ list-style: none;
+}
+
+.first_item {
+ margin-left: 40px;
+}
+
+.menu ul li {
+ float: left;
+ height: 28px;
+ color: white;
+ margin-right: 30px;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ padding: 0 10px;
+ line-height: 28px;
+}
+
+.menu ul li ul {
+ display: none;
+ position: absolute;
+ left: 0;
+ top: 28px;
+ margin: 0;
+ width: 160px;
+ background: #333333;
+}
+
+.menu ul li ul li {
+ float: none;
+ display: block;
+ background: none;
+}
+
+.menu ul li:hover ul {
+ display: block;
+}
+
+
+.base {
+ width: 1000px;
+ margin-left: 0px;
+ margin-right: 0px;
+ margin-top: -2px;
+ min-width: 1000px;
+ padding: 0px;
+ display:table;
+}
+
+.base-row {
+ display: table-row;
+}
+
+.base li {
+ display: table-cell;
+}
+
+.cell1 {
+ width: 240px;
+ background-color: #edeef0;
+}
+
+.cell2 {
+ background-color: white;
+}
+
+.cell3 {
+ width: 240px;
+ background-color: #edeef0;
+}
+
+.info {
+ font-weight: bold;
+ padding-top: 20px!important;
+ text-align: center;
+}
+
+.base p {
+ color: #424c43;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 10px;
+}
+
+.copyright span {
+ margin: 15px 0 15px 385px;
+ display: inline-block;
+ color: white;
+}
