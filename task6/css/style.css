@@ -1,0 +1,751 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+}
+
+.main_page {
+    width: 908px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 21px;
+    margin-left: 6px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.telephone {
+    display: inline-block;
+    float: left;
+    color: #5e696d;
+    margin-top: 2px;
+    padding-left: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    background: url("../img/tel.png") no-repeat left;
+}
+
+.enter {
+    width: 495px;
+    height: 25px;
+    float: left;
+    margin: -2px 0 0 15px;
+    border-radius: 3px;
+    -webkit-box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
+    background: #1f6787;
+    background: -moz-linear-gradient(top, #1f6787 0%, #0d3458 100%);
+    background: -webkit-linear-gradient(top, #1f6787 0%,#0d3458 100%);
+    background: linear-gradient(to bottom, #1f6787 0%,#0d3458 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0d3458',GradientType=0 );
+}
+
+.enter img {
+    display: block;
+    float: left;
+    margin: 4px 0 0 7px;
+}
+
+.enter form {
+    display: inline-flex;
+    float: left;
+}
+
+.enter form input {
+    width: 108px;
+    height: 14px;
+    margin: 3px 2px 15px 4px;
+    border: 1px #82949c solid;
+    border-radius: 2px;
+    padding-left: 4px;
+    font-size: 11px;
+}
+
+.enter a {
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    float: left;
+    color: #fff;
+    line-height: 27px;
+}
+
+.login {
+    margin-left: 5px;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.registration {
+    margin-left: 2px;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.rem_pass {
+    margin-left: 19px;
+    font-size: 12px!important;
+    text-decoration: underline;
+}
+
+.icons {
+    width: 74px;
+    height: 19px;
+    margin-left: 18px;
+    text-align: center;
+    line-height: 17px;
+    float: left;
+    background-color: #fff;
+    border: 1px #c1c8cb solid;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
+}
+
+.fixed {
+    margin-left: 8px;
+}
+
+.banner {
+    width: 908px;
+    height: 237px;
+    display: block;
+    margin-top: 5px;
+}
+
+.top_menu_sel {
+    -webkit-box-shadow: 3px 3px 18px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 18px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 18px -2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.top_menu_nav {
+    width: 908px;
+    height: 33px;
+    margin-top: 7px;
+    border: 1px #000 solid;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#505860+0,2d3236+14,020202+100 */
+    background: #505860; /* Old browsers */
+    background: -moz-linear-gradient(top,  #505860 0%, #2d3236 14%, #020202 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #505860 0%,#2d3236 14%,#020202 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #505860 0%,#2d3236 14%,#020202 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#505860', endColorstr='#020202',GradientType=0 ); /* IE6-9 */
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 6px 9px -5px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 6px 9px -5px rgba(255,255,255,1);
+    box-shadow: inset 0px 6px 9px -5px rgba(255,255,255,1);
+}
+
+.top_menu_nav ul {
+    display: block;
+    margin-left: 130px;
+    margin-top: -2px;
+    float: left;
+}
+
+.top_menu_nav ul li {
+    display: inline-block;
+    height: 25px;
+    float: left;
+    margin-right: -5px;
+    margin-top: 4px;
+    padding: 0 15px 0 15px;
+    line-height: 25px;
+    text-indent: -0.1em;
+}
+
+.top_menu_nav ul li:hover {
+    display: block;
+    border-radius: 15px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6787+0,0c3357+100 */
+    background: #1f6787; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1f6787 0%, #0c3357 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1f6787 0%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1f6787 0%,#0c3357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */
+}
+
+.top_menu_nav ul li:hover a,
+.top_menu_nav ul li a:hover {
+    color: #fff;
+}
+
+.top_menu_nav ul li a {
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #b1bcc0;
+    text-transform: uppercase;
+}
+
+.korzina {
+    background: url("../img/basked.png") no-repeat left;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #929b9f;
+    float: left;
+    line-height: 30px;
+    padding-left: 27px;
+    margin-left: 60px;
+    text-indent: 0.2em;
+}
+
+.korzina span {
+    color: #0d5a8f;
+    margin-right: 13px;
+    font-size: 12px;
+    margin-left: 9px;
+}
+
+#null {
+    margin-left: 0px;
+}
+
+.tovars {
+    width: 915px;
+    margin-top: 35px;
+}
+
+.menu_left {
+    float: left;
+}
+
+.catalog_name {
+    width: 180px;
+    height: 25px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+    color: #114165;
+    text-transform: uppercase;
+    border: 1px #79878d solid;
+    background: url("../img/cat.png") no-repeat left;
+    border-radius: 15px;
+    background-position-x: 4px;
+    background-position-y: 3px;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+
+.catalog_name span {
+    padding-left: 27px;
+    line-height: 28px;
+}
+
+.catalog_rezina,
+.catalog_diski,
+.catalog_bolti
+{
+    background: url("../img/shini.png") no-repeat left;
+    width: 150px;
+    height: 27px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+    color: #114165;
+    text-transform: uppercase;
+    border: 1px #79878d solid;
+    border-radius: 15px;
+    background-position-x: 4px;
+    background-position-y: 3px;
+}
+
+.catalog_rezina {
+    margin-top: 14px;
+    margin-left: 2px;
+}
+
+.catalog_diski {
+    margin-top: -2px;
+    margin-left: 2px;
+}
+
+.catalog_diski li {
+    margin-top: -3px;
+}
+
+.catalog_diski li {
+    margin-top: -3px;
+}
+
+.catalog_bolti {
+    margin-top: -4px;
+    margin-left: 2px;
+}
+
+.catalog_rezina span,
+.catalog_diski span,
+.catalog_bolti span {
+    padding-left: 30px;
+    line-height: 28px;
+}
+
+.menu_left ul {
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    margin-top: -3px;
+    margin-left: 5px;
+}
+
+.menu_left ul li {
+    margin-left: 50px;
+    list-style: circle;
+    line-height: 26px;
+    text-indent: -0.5em;
+}
+
+.menu_left ul li a {
+    font-size: 13px;
+    color: #114165;
+    text-decoration: none;
+}
+
+.menu_left ul li a:hover {
+    font-size: 14px;
+    color: #0c3256;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.content {
+    width: 527px;
+    float: left;
+    padding-bottom: 28px;
+    margin-left: 9px;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4e7e8+0,93a7b0+100 */
+    background: #e4e7e8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e4e7e8 0%, #93a7b0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e4e7e8 0%,#93a7b0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e4e7e8 0%,#93a7b0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e7e8', endColorstr='#93a7b0',GradientType=0 ); /* IE6-9 */
+
+}
+
+.first_position,
+.second_position,
+.third_position {
+    margin: 0 auto;
+    width: 490px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+.products {
+    text-align: center;
+    float: left;
+}
+
+.tovar1 {
+    width: 191px;
+    margin-left: -18px;
+}
+
+.tovar2 {
+    width: 191px;
+    margin-left: -23px;
+}
+
+.tovar3 {
+    width: 138px;
+}
+
+.tovar4 {
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.tovar5 {
+    margin-left: 29px;
+    margin-top: 5px;
+}
+
+.tovar6 {
+    margin-left: 29px;
+    margin-top: 5px;
+}
+
+.tovar7 {
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.tovar7 .title {
+    margin-left: -4px;
+}
+
+.tovar7 .price {
+    margin-left: 4px;
+}
+
+.tovar8 {
+    margin-top: 10px;
+    margin-left: 28px;
+}
+
+.tovar9 {
+    margin-top: 10px;
+    margin-left: 28px;
+}
+
+.tovar9 .title {
+    margin-left: -4px;
+}
+
+.tovar9 .price {
+    margin-left: 0;
+}
+
+.tovar1 .title {
+    margin-top: -4px;
+    margin-left: -6px;
+}
+
+.tovar2 .title {
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+.tovar3 .title {
+    margin-top: -5px;
+    margin-left: 4px;
+}
+
+.tovar6 .title {
+    margin-left: -4px;
+}
+
+.products .title a {
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #206988;
+    text-decoration: none;
+}
+
+.products .description {
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.tovar1 .description {
+    margin-left: -2px;
+}
+
+.tovar2 .description {
+    margin-left: -3px;
+}
+
+.tovar3 .description {
+    margin-left: 0;
+}
+
+.tovar4 .description,
+.tovar4 .price {
+    margin-left: 7px;
+}
+
+.products .price {
+    font-family: Arial, sans-serif;
+    color: #114165;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.tovar1 .price {
+    padding-left: 1px;
+}
+
+.tovar2 .price {
+    padding-left: 0px;
+    padding-top: 2px;
+}
+
+.tovar3 .price {
+    padding-left: 8px;
+}
+
+.tovar3 .price {
+    margin-left: 0px;
+    padding-top: 2px;
+}
+
+.tovar6 .price {
+    margin-left: 0;
+}
+
+.tovar6 .description {
+    margin-left: -7px;
+}
+
+.tovar9 .description {
+    margin-left: -14px;
+}
+
+.products .price span {
+    font-size: 12px;
+    text-transform: lowercase;
+}
+
+.products img {
+    border: 2px #c3cacc solid;
+    border-radius: 10px;
+    width: 137px;
+    height: 127px;
+    margin-top: -1px;
+    background: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu_right {
+    float: left;
+    margin-left: 9px;
+}
+
+.menu_right ul {
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+    color: #465961;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.menu_right ul li {
+    list-style: none;
+    text-indent: -1.5em;
+    margin-left: 46px;
+    line-height: 26px;
+}
+
+.menu_right ul li a {
+    font-size: 13px;
+    color: #114165;
+    text-decoration: none;
+}
+
+.menu_right ul li a:hover {
+    font-size: 14px;
+    color: #0c3256;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu_right ul input {
+    margin-right: -35px;
+}
+
+.menu_right label {
+    margin-left: 49px;
+}
+
+.menu_right .catalog_rezina,
+.menu_right .catalog_diski {
+    margin-left: 15px;
+}
+
+.menu_right input[type="submit"] {
+    width: 80px;
+    height: 24px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #206988 0%, #0c3256 59%);
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 38px;
+    -webkit-box-shadow: 5px 6px 16px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 16px -6px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px 16px -6px rgba(0,0,0,0.75);
+}
+
+.menu_right form {
+    width: 185px;
+    float: left;
+    display: inline-block;
+    margin-left: -13px;
+    margin-top: -7px;
+}
+
+
+.bottom_logo {
+    margin: 0 auto;
+    width: 700px;
+    margin-left: 117px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.bottom_logo img{
+    margin: 45px 10px 30px 0;
+    vertical-align: top;
+}
+
+.bottom_menu {
+    height: 100px;
+    margin-top: -10px;
+    font-family: Arial, sans-serif;
+    background-color: #213a4d;
+}
+
+.bottom_menu ul {
+    margin-left: 299px;
+    margin-top: 4px;
+    text-indent: 0.2em;
+}
+
+.bottom_menu ul li:first-child {
+    border: none;
+}
+
+.bottom_menu ul li {
+    float: left;
+    margin-top: 10px;
+    margin-right: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #bec6c9;
+}
+
+.menu_right ul li:last-child {
+    margin-top: -2px;
+}
+
+.bottom_menu ul li:last-child {
+    margin-left: 4px;
+}
+
+
+.bottom_menu ul li a {
+    color: #bec6c9;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bottom_menu ul li a:hover {
+    color: #52abcb;
+}
+
+.bottom_menu p {
+    clear: both;
+    text-align: center;
+    color: #7f4740;
+    font-size: 10px;
+    line-height: 39px;
+    font-size: 10px;
+}
+
+.home {
+    display: inline-block;
+    margin-left: -3px;
+}
+
+.map {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.email {
+    margin-left: -3px;
+}
+
+.dostavka {
+    margin-left: 5px;
+}
+
+.stati {
+    margin-left: 4px;
+}
+
+.contacts {
+    margin-left: 1px;
+}
+
+.name3 {
+    margin-top: -4px;
+}
+
+.name4 {
+    margin-top: -4px;
+}
+
+#catalog_name {
+    background-position-x: 4px;
+    background-position-y: 1px;
+}
+
+#catalog_name span {
+    padding-left: 32px;
+    line-height: 23px;
+}
+
+#catalog_rezina {
+    width: 136px;
+    height: 25px;
+    margin-left: 14px;
+    margin-top: 13px;
+}
+
+#catalog_rezina span {
+    padding-left: 32px;
+}
+
+.right_menu li {
+    margin-bottom: -7px;
+}
+
+#catalog_diski {
+    width: 133px;
+    height: 27px;
+    margin-top: 8px;
+    margin-left: 28px;
+    background-position-x: 2px;
+}
+
+#catalog_diski_ul {
+    margin-top: 3px;
+}
+
+#logo6 {
+    margin-left: -4px;
+    margin-top: 39px;
+}
+
+.tovar5 .price{
+    padding-left: 5px;
+}
+
+#logo1 {
+    margin-left: 0px;
+    margin-top: 43px;
+}
+
+#logo2 {
+    margin-left: -2px;
+}
+
+#logo4 {
+    margin-left: 1px;
+    margin-top: 41px;
+}
+
+#logo5 {
+    margin-top: 43px;
+    margin-left: -2px;
+}
