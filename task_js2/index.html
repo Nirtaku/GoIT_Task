@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>Home work Java Script 2</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+ <script>
+     var arrayData = createArrayNames(5);
+     var myName = prompt('Введите свое имя', '');
+
+     if (!searchName(myName, arrayData)) {
+         alert('Не верно введено имя');
+     } else {
+         alert(myName + ', вы успешно вошли');
+     }
+ </script>
+</body>
+</html>
