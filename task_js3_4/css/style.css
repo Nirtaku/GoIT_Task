@@ -1,0 +1,48 @@
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin-top: 50px;
+}
+
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+    background: rgb(207,231,250); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+
+.wrapper--header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.questions {
+    margin: 10px;
+}
+
+.questions--header {
+    font-size: 18px;
+}
+
+.questions--label {
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.questions--label input {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 2px;
+}
+
+.wrapper--button {
+    margin: 20px 0 0 150px;
+}
