@@ -1,0 +1,47 @@
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin-top: 50px;
+}
+
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+    text-align: center;
+    font-size: 30px;
+    background: rgb(207,231,250); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+
+.clock {
+    border: 0;
+    display: block;
+    margin-left: 125px;
+    background-color: yellow;
+    font-size: 40px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.btns {
+    margin-left: 125px;
+    margin-bottom: 50px;
+}
+
+#start, #stop, #reset, #split {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#stop {
+    display: none;
+}
