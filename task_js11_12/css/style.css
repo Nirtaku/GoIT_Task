@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Arvo Bold'), local('Arvo-Bold'), url(http://fonts.gstatic.com/s/arvo/v9/Ya11CJGBCnKoJHvb8B2EOw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    background-color: #F0EFE7;
+}
+
+h1 {
+    font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #4E443C;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.wrapper {
+    width: 685px;
+    margin: 0 auto;
+}
+
+.carousel-hider {
+    width: 475px;
+    overflow: hidden;
+    float: left;
+}
+
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+
+.carousel-element img {
+    max-width: 100px;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid;
+    margin: 23px;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.clear {
+    clear: both;
+}
+
+.first_task {
+    margin: 0;
+    padding: 4px 0 50px 0;
+    background-color: #eeeeee;
+    font-family: 'Times New Roman';
+}
+
+.first_task h1 {
+    text-align: center;
+    font-size: 19pt;
+}
+
+.first_task p, .first_task a {
+    font-size: 14pt;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.first_task img {
+    border-radius: 10px;
+}
+
+.first_task ul {
+    font-size: 14pt;
+    margin-top: 30px;
+}
+
+.first_task ul li {
+    margin-top: 7px;
+}
+
+
+.page {
+    width: 512px;
+    margin: 0 auto;
+    padding: 55px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px 1px rgba(166,164,166,1);
+    -moz-box-shadow: 0 0 5px 1px rgba(166,164,166,1);
+    box-shadow: 0 0 5px 1px rgba(166,164,166,1);
+}
+
+.part_one {
+    text-align: center;
+}
+
+.profession,
+.first_task ul {
+    border-bottom: 1px solid #7a7a7a;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.texts {
+    margin: 0 0 30px 0;
+}
+
+.feedbac {
+    border-top: 1px solid #7a7a7a;
+    padding-top: 30px;
+}
