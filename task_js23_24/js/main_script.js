@@ -11,7 +11,7 @@ require.config({
 
 require( ['model', 'view', 'controller', 'jquery'],
          function (model, view, controller,  $) {
-            var toDoList = ['Pass exam','Relax','Sleep', 'Work'];
+            var toDoList = ['Pass all exams GoIT','Create resume','Star work in IT compaby'];
             var modelObj = new model.model(toDoList);
             var viewObj = new view.view(modelObj);
             new controller.controller(modelObj, viewObj);

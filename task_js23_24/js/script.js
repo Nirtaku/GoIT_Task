@@ -101,7 +101,7 @@ function Controller(model, view) {
 }
 
 $(function(){
-    var toDoList = ['Pass exam','Relax','Sleep', 'Work'];
+    var toDoList = ['Pass all exams GoIT','Create resume','Star work in IT compaby'];
     var modelObj = new Model(toDoList);
     var viewObj = new View(modelObj);
     new Controller(modelObj, viewObj);
